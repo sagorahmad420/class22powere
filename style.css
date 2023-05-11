@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.sagor .navbar-brand{
+     font-size: 25px;
+     font-weight: 600;
+     transition: .5s ease;
+}
+.sagor .navbar-brand:hover{
+    color: #ddd;
+}
+.sagor span{
+    display: inline-block;
+    background: #3550a1;
+    color: #fff;
+    padding:8px 10px;
+    border-radius: 10px;
+}
+
+/* baner */
+
+.baner-arey{
+    background: url(	https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg)no-repeat center center;
+    padding: 200px 0px;
+    position: relative;
+    z-index: 1;
+}
+.baner-arey::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(8, 6, 6, 0.452);
+    z-index: -1;
+}
+img{
+    max-width: 100%;
+}
+.text-patew{
+    margin-top: 100px;
+}
+
+/* potefuleo to srart */
+.potfulieo-item{
+    
+}
+.potfulieo-item a{
+  position: relative;
+  display: block;
+}
+.potfulieo-item a::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: #364e97a6;
+      opacity: 0;
+      visibility: hidden;
+      transition: .4s;
+}
+.potfulieo-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* table */
+.table-arey{
+    background:#f7f9ff ;
+}
+
+.prigent-item{
+    background: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px rgba(8, 6, 6, 0.452);
+    border-radius: 10px;
+}
+.prigent-item h1{
+
+}
+.prigent-item h5{
+
+}
+.prigent-item ul{
+     list-style: none;
+     margin-left: 0;
+     padding-left: 0;
+     margin-bottom: 40px;
+}
+.prigent-item ul li{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 20px;
+}
+.prigent-item ul li span{
+   color: #657be0;
+   font-size: 25px;
+   font-weight: bold;
+   width: 40px;
+   display: inline-block;
+}
+
+.parigrn-btn{}
+.parigrn-btn a{
+    box-shadow: 2.5px 4.33px 30px rgba(8, 6, 6, 0.404);
+}
+
+
+/* koma to */
+.auther-info{
+    width: 250px;
+    margin: auto;
+}
+.auther-info img{
+    width: 84px;
+    margin-right: 19px;
+}
+.user-mane{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+.hdesde{
+    font-size: 100px;
+    color: #dddddd5e;
+}
+
+/* text dkfk */
+.about-item{}
+.about-item .card{
+   
+}
+.about-item .card img {
+    width: 110px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 15px;
+}
